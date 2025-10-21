@@ -10,7 +10,7 @@ from dotenv import load_dotenv
 import os
 
 # lee archivo .env y carga variables en os.environ
-load_dotenv(override=True,dotenv_path=r"C:\Users\wilso\Desktop\x\x\matplotlib_vscode\SIMULACION PROTEUS\.env")
+load_dotenv(override=True,dotenv_path=r"C:\Users\wilso\Desktop\x\x\matplotlib_vscode\SIMULACION PROTEUS\Variables.env")
 
 # Instalaciones: pip install pyqt6 mysql-connector-python pyserial python-dotenv twilio
 # (si no usas .env, define las variables directamente abajo antes de usar Twilio)
@@ -40,7 +40,6 @@ DB_CONFIG = {
     "password": "WILSONTARRIFA1900",
     "database": "reservas",
     "port": 3306,
-    # Puedes añadir más parámetros si usas socket o pool
 }
 
 DB_CONFIG1 = {
