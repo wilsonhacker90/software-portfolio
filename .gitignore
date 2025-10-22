@@ -3,3 +3,8 @@
 Variables.env
 .env
 Variables.env
+# Archivos temporales
+tempCodeRunnerFile.*
+*.pyc
+__pycache__/
+.env
